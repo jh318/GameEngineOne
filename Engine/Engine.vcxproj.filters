@@ -34,6 +34,9 @@
     <ClCompile Include="Application\Sprite.cpp">
       <Filter>Application</Filter>
     </ClCompile>
+    <ClCompile Include="GameProject\RenderDemo.cpp">
+      <Filter>GameProject</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core\Vector2.h">
@@ -50,6 +53,9 @@
     </ClInclude>
     <ClInclude Include="Application\Sprite.h">
       <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProject\RenderDemo.h">
+      <Filter>GameProject</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

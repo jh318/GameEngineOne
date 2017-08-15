@@ -23,6 +23,7 @@
     <ClCompile Include="Application\Input.cpp" />
     <ClCompile Include="Application\Sprite.cpp" />
     <ClCompile Include="Core\Vector2.cpp" />
+    <ClCompile Include="GameProject\RenderDemo.cpp" />
     <ClCompile Include="GameProject\SpaceShooter.cpp" />
     <ClCompile Include="GameProject\Main.cpp" />
   </ItemGroup>
@@ -31,6 +32,7 @@
     <ClInclude Include="Application\Input.h" />
     <ClInclude Include="Application\Sprite.h" />
     <ClInclude Include="Core\Vector2.h" />
+    <ClInclude Include="GameProject\RenderDemo.h" />
     <ClInclude Include="GameProject\SpaceShooter.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
