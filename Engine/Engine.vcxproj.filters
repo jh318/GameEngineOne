@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{b0c7b76c-cb64-48f4-8fae-07f2c40d2f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{6fbd2381-1aae-44dd-89ab-212242bebe73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameProject">
+      <UniqueIdentifier>{398a72ce-c1d6-4333-bb8f-f97e75b79805}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\Game.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProject\Main.cpp">
+      <Filter>GameProject</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\Input.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProject\SpaceShooter.cpp">
+      <Filter>GameProject</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Vector2.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\Sprite.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Vector2.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Game.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Input.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProject\SpaceShooter.h">
+      <Filter>GameProject</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\Sprite.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
